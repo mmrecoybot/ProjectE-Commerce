@@ -1,0 +1,31 @@
+.top-header {
+    background-color: #f5f5f8;
+}
+.top-header .padding {
+    height: 38px;
+}
+.contact-group {
+    display: inline-flex;
+    padding: 10px 0px;
+}
+.contact-group li {
+    margin-left: 10px;
+    
+}
+.contact-info {
+    display: flex;
+    padding: 0px 25px;
+}
+.contact-info li{
+    color: #606975;
+}
+.social-icon {
+    margin-left: 680px;
+}
+.social-icon ul {
+    display: flex;
+    margin-top: -5px;
+}
+select#langu {
+    margin: 0px 10px;
+}

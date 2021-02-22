@@ -3,6 +3,10 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+body{
+    margin: 0px;
+    padding: 0px;
+}
 html {
     line-height: 1.15;
     /* 1 */
@@ -62,6 +66,7 @@ pre {
  */
 a {
     background-color: transparent;
+    text-decoration: none;
 }
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -117,6 +122,9 @@ sub {
 sup {
     top: -0.5em;
 }
+li{
+    list-style-type: none;
+}
 /* Embedded content
    ========================================================================== */
 /**
@@ -124,6 +132,13 @@ sup {
  */
 img {
     border-style: none;
+}
+
+svg.svg-inline--fa.fa-envelope.fa-w-16 {
+    margin-right: 8px;
+}
+svg.svg-inline--fa.fa-bell-slash.fa-w-20{
+    margin-right: 8px;
 }
 /* Forms
    ========================================================================== */
